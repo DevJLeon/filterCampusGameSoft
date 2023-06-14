@@ -1,0 +1,34 @@
+.card{
+  margin: 30px;
+  text-align: center;
+  transition: .2s;
+  padding: 15px;
+}
+
+.card img{
+  border-radius: 10px;
+}
+
+.card li{
+  text-align: start;
+}
+
+.card span{
+  position: absolute;
+  left:40%;
+  font-weight: bold;
+}
+
+.card:hover{
+  box-shadow: 0 8px 15px rgba(0,0,0,.2);
+  transition: .2s;
+}
+
+.buyButton:hover{
+  transform: scale(1.2);
+  transition: .2s;
+}
+
+.addGame-btn{
+  margin: 10px;
+}

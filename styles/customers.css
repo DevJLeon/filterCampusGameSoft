@@ -1,0 +1,26 @@
+.cap{
+  text-transform: capitalize;
+}
+
+h1{
+  font-size: 100px;
+  margin: 100px;
+}
+
+.edit-btn:hover{
+  color: teal;
+  background-color: #ffffff;
+  transform: scale(1.1);
+  transition: .2s;
+}
+
+.delete-btn:hover{
+  color: darkred;
+  background-color: #ffffff;
+  transform: scale(1.1);
+  transition: .2s;
+}
+
+td button{
+  margin: 5px;
+}

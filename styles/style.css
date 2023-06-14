@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #4d8ca2;
+  
+}
+
+.nav-icon{
+  height: 50px;
+}
+
+.nav{
+  background: #b2bbc0;
+}
+
+.nav-item{
+  padding: 5px;
+}
+
+.nav-item:hover{
+  box-shadow: 0 8px 15px rgba(0,0,0,.2);
+  transition: 0.4s;
+  border-radius:10px;
+}
+
+.table{
+  margin: 20px;
+  margin-right: 50px;
+}
+
+/* modal style / hide - show modal */
+
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-size: cover;
+}
+
+.modal-content{
+  background: linear-gradient(#122352, #2b79a0);
+}
+
+.modal-title{
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  
+}
+
+form input{
+  margin: 0px 0px 20px 0;
+}
+
+form label{
+  margin: 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+select{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: cursive, sans-serif;
+  outline: 0;
+  background: #216688;
+  border: 1px solid #12303f;
+  padding: 4px;
+  border-radius: 9px;
+}
+
+.modal-body form label{
+  color: #ffffffd6;
+}
+
+
+.close{
+  background: linear-gradient(#122352, #2b79a0);
+}
+
+.cancel {
+  width: 40%;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+.close.focus, .close:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-size: cover;
+}
+
+.modal-footer button{
+  border: 0.5px solid #000000;
+  background: linear-gradient(#122352, #2b79a0) ;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffffc6;
+  width: 40%;
+}
+
+.carousel{
+  position: relative;
+}
+
+.carousel img{
+  object-fit: cover;
+  object-position: center;
+  height: 700px;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 80px;
+  right: 15px;
+  font-weight: bold;
+  text-align: right;
+  font-size: 50px;
+  color: #b32cb3;
+  text-shadow: 3px 3px 1px #520a62;
+}
